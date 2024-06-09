@@ -1,0 +1,10 @@
+{
+    "customer_id": 24,
+    "firstName": "Sophia",
+    "lastName": "Borden",
+    "orders": [
+        {"order_id": 3,
+         "burger_id": [12, 13, 14]
+        }
+    ]
+}
