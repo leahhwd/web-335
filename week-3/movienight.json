@@ -1,0 +1,70 @@
+{
+    "viewers": [
+        {
+            "_id": 1,
+            "firstName": "chelsea",
+            "lastName": "Frank"
+        },
+        {
+            "_id": 2,
+            "firstName": "Mark",
+            "lastName": "Ermentraught"
+        },
+        {
+            "_id": 3,
+            "firstName": "Sarah",
+            "lastName": "Higgle"
+        }
+    ],
+
+    "movies": [
+        {
+            "_id": 11,
+            "title": "The Jungle Book",
+            "genre": "family"
+        },
+        {
+            "_id": 12,
+            "title": "SAW III",
+            "genre": "horror"
+        },
+        {
+            "_id": 13,
+            "title": "Everything Everywhere All At Once",
+            "genre": "action"
+        }
+    ],
+
+    "ratings": [
+        {
+            "_id": 111,
+            "ratingScore": 4.2,
+            "viewerID": 1,
+            "movieID": 12
+        },
+        {
+            "_id": 112,
+            "ratingScore": 3.5,
+            "viewerID": 1,
+            "movieID": 13
+        },
+        {
+            "_id": 113,
+            "ratingScore": 1.2,
+            "viewerID": 3,
+            "movieID": 12
+        },
+        {
+            "_id": 114,
+            "ratingScore": 7.9,
+            "viewerID": 2,
+            "movieID": 11
+        },
+        {
+            "_id": 115,
+            "ratingScore": 5.3,
+            "viewerID": 2,
+            "movieID": 13
+        }
+    ]
+}
