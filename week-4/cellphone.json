@@ -1,0 +1,73 @@
+{
+    "users": [
+        {
+            "_id": 1,
+            "firstName": "Jessica",
+            "lastName": "Bordon",
+            "devices": [
+            {
+                "_id": 32,
+                "deviceName": "JessIphone",
+                "deviceType": "iPhone 13pro",
+                "charger_id": 13
+            },
+            {
+                "_id": 54,
+                "deviceName": "JessPC",
+                "deviceType": "Macbook Air",
+                "charger_id": 12
+
+            }
+            ]
+        },
+        {
+            "_id": 2,
+            "firstName": "Chris",
+            "lastName": "Fathers",
+            "devices": [
+                {
+                    "_id": 72,
+                    "deviceName": "FathersPhone",
+                    "devideType": "Samsung Galaxy",
+                    "charger_id": 11
+                },
+                {
+                    "_id": 31,
+                    "deviceName": "Chris Spare",
+                    "devideType": "Portable Battery Pack",
+                    "charger_id": 11
+                }
+            ]
+        },
+        {
+            "_id": 3,
+            "firstName": "Lizzy",
+            "lastName": "McGuire",
+            "devices": [
+                {
+                    "_id": 67,
+                    "deviceName": "McGuire's Tablet",
+                    "deviceType": "Ipad",
+                    "charger_id": 13
+                }
+            ]
+        }
+    ],
+    "charger": [
+        {
+            "_id": 11,
+            "chargerType": "Micro-USB",
+            "voltage": "5"
+        },
+        {
+            "_id": 12,
+            "chargerType": "USB-C",
+            "voltage": "10"
+        },
+        {
+            "_id": 13,
+            "chargerType": "Lightening",
+            "voltage": "3"
+        }
+    ]
+}
