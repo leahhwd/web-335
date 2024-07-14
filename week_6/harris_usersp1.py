@@ -10,8 +10,7 @@ from pymongo import MongoClient
 import datetime
 
 #Connection string to connect to client
-client = 
-MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.ijcdcml.mongodb.net/web335DBretryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.ijcdcml.mongodb.net/web335DBretryWrites=true&w=majority")
 """
 I chose this connection string by selecting
 Developer Tools/ MongoDB for VScode.
